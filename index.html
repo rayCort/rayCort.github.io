@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <meta charset="utf-8" />  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
         <title>
 Welcome to My Site        </title>
-        <link rel="stylesheet" href="/theme/css/just_enough.css" />
+        <link rel="stylesheet" href="/theme/css/style.css" />
 </head>
-<body>
-  <div id="pagewrap">
-    	<div id="banner">
-        <h1><a href="/">Blog <strong></strong></a></h1>
-      </div>
- 
-      <nav id="sidebar" class="content">
-        <h2>Categories</h2>
-        <hr />
-        <ul>
-                <li><a href="/category/dev.html">Dev</a></li>
-                <li><a href="/category/misc.html">misc</a></li>
-                <li><a href="/category/prod.html">Prod</a></li>
-                <li><a href="/category/test.html">Test</a></li>
 
-        </ul>
-      </nav><!-- /#sidebar -->
-             
+<body id="container">
+        <header id="banner" class="body">
+          <h1><a href="/">learnlayput <strong></strong></a></h1>
+          <nav id="menu">
+            <ul>
+                  <li><a href="/">About</a></li>
+                  <li class="active"><a href="/">Welcome to My Site</a></li>
+            </ul>
+          </nav><!-- /#menu -->
+        </header><!-- /#banner -->
+        
     <h1>Welcome to My Site</h1>
     
 
     <p>Thank you for visiting. Welcome!</p>
 <p><a href="/blog_index.html">a link relative to the current file</a></p>
 
-       
-      <footer id="footer">
-              
-              Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-              which takes great advantage of <a href="http://python.org">Python</a>.
-             
-      </footer><!-- /footer -->
-   </div>     
+        
+        
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
 </body>
-
 </html>
