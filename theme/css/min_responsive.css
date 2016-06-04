@@ -15,6 +15,8 @@ body {
   color: #414142;
   font-family: Arial;
   background-color: #ededed;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* Headings */
@@ -38,16 +40,12 @@ h3, h4, h5, h6 { margin-top: .8em; }
 
 hr { border: 2px solid #EEEEEE; }
 
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
 
 /* Anchors */
 /***********************************************************************************/
 p {
   margin: 1em 0;
+
 }
 
 p code, li code {
@@ -73,6 +71,7 @@ a:active {
   color: white;
 }
 
+.readmore { float: right }
 /* Structure */
 /***********************************************************************************/
 #pagewrap {
@@ -82,12 +81,13 @@ a:active {
 }
 #header {
 	height: 100px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
 }
 
 #content {
-	background: #fff;
 	margin-bottom: 2em;
-
 	width: 600px;
 	float: left;
 
@@ -95,11 +95,28 @@ a:active {
 #sidebar {
 	width: 300px;
 	float: right;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
 }
 #footer {
 	clear: both;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
 }
 
+/***** Sections *****/
+/* Blog */
+
+/* HTML5 tags */
+section {
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+/*
 
 /* Mediea Queries */
 /***********************************************************************************/
