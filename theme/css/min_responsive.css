@@ -1,7 +1,7 @@
 
 /* Imports */
 /***********************************************************************************/
-@import url("reset_v2.css");
+/* @import url("reset_v2.css"); */
 
 
 /***** Global *****/
@@ -13,7 +13,8 @@ body {
   font-size: 1.429em;
   line-height: 1.5em;
   color: #414142;
-  font-family: Arial;
+ /* font-family: Arial; */
+  font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #ededed;
   margin-left: 5px;
   margin-right: 5px;
